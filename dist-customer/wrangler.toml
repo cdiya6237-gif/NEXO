@@ -1,0 +1,27 @@
+name = "nexo"
+compatibility_date = "2026-03-01"
+pages_build_output_dir = "dist"
+
+# ======================================================================
+# CLOUDFLARE D1 DATABASE BINDING
+# Provides persistent, globally accessible SQL database storage
+# shared between Customer Portal and Admin Control Center
+# ======================================================================
+[[d1_databases]]
+binding = "DB"
+database_name = "nexo-db"
+database_id = "nexo-db-production"
+
+# ======================================================================
+# CLOUDFLARE KV NAMESPACE (OPTIONAL DISTRIBUTED CACHE)
+# ======================================================================
+[[kv_namespaces]]
+binding = "NEXO_KV"
+id = "nexo-kv-production"
+
+# ======================================================================
+# PRODUCTION RUNTIME VARIABLES
+# ======================================================================
+[vars]
+ENVIRONMENT = "production"
+ADMIN_USERNAME = "Sham"

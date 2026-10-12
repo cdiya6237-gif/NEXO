@@ -1,0 +1,15 @@
+{
+  "short_name": "NEXO",
+  "name": "NEXO — Next Experience Commerce Opportunity",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#050505",
+  "theme_color": "#E6B92F",
+  "display": "standalone"
+}

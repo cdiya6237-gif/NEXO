@@ -1,0 +1,41 @@
+{
+  "system": {
+    "platformName": "NEXO",
+    "version": "2.4.0",
+    "currency": "USDT",
+    "network": "TRC20",
+    "depositAddress": "TKe7jmn1vyp16dc2SVyo37LRbudzbrZGYM",
+    "taskTarget": 25,
+    "commissionRate": 0.25,
+    "referralBonusRate": 0.10
+  },
+  "adminAccount": {
+    "username": "Sham",
+    "role": "super_admin",
+    "permissions": ["all"]
+  },
+  "demoUsers": [
+    {
+      "id": "u-101",
+      "fullName": "Elena Rostova",
+      "username": "elena_vip",
+      "email": "elena.vip@nexo-commerce.net",
+      "phone": "+1 415 889 2011",
+      "tier": "GOLD",
+      "vipLevel": "VIP 2",
+      "referralCode": "NXO-GOLD-88",
+      "status": "active"
+    },
+    {
+      "id": "u-102",
+      "fullName": "David Zhang",
+      "username": "david_z",
+      "email": "david.zhang@globalnet.io",
+      "phone": "+852 9123 4567",
+      "tier": "SILVER",
+      "vipLevel": "VIP 1",
+      "referralCode": "NXO-SLV-12",
+      "status": "active"
+    }
+  ]
+}

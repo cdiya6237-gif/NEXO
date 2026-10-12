@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0.0",
+  "entities": {
+    "users": {
+      "collection": "users",
+      "fields": {
+        "id": "string",
+        "fullName": "string",
+        "username": "string",
+        "email": "string",
+        "phone": "string",
+        "role": "string",
+        "status": "string",
+        "tier": "string",
+        "referralCode": "string"
+      }
+    },
+    "deposits": {
+      "collection": "deposits",
+      "fields": {
+        "id": "string",
+        "userId": "string",
+        "amount": "number",
+        "status": "string",
+        "txHash": "string"
+      }
+    },
+    "withdrawals": {
+      "collection": "withdrawals",
+      "fields": {
+        "id": "string",
+        "userId": "string",
+        "amount": "number",
+        "destinationAddress": "string",
+        "status": "string"
+      }
+    },
+    "products": {
+      "collection": "products",
+      "fields": {
+        "id": "string",
+        "name": "string",
+        "tier": "string",
+        "price": "number",
+        "commissionRate": "number"
+      }
+    }
+  }
+}
